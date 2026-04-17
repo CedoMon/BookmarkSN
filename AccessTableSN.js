@@ -43,7 +43,7 @@ const data = [
       { t: "📥 Retrieved Update Sets", u: "/sys_remote_update_set_list.do" },
       { t: "👩‍💻 Customer Updates",      u: "/sys_update_xml_list.do" },
     { section: "Scripting & Log" },
-      { t: "Logs 5min SPO",           u: "/syslog_list.do?sysparm_query=sys_created_onRELATIVEGT@minute@ago@5^sourceLIKESPO" },
+      { t: "Logs 5min CMO",           u: "/syslog_list.do?sysparm_query=sys_created_onRELATIVEGT@minute@ago@5^sourceLIKECMO" },
       { t: "Scripts Background",      u: "/sys.scripts.do" },
       { t: "Debugger",                h: "debugger" },
     { section: "Quick Links" },
@@ -56,7 +56,7 @@ const data = [
   { f: "Development", c: "#8e44ad", l: [
     { section: "Scripts" },
       { t: "UI Actions",              u: "/sys_ui_action_list.do" },
-      { t: "Client Scripts",          u: "/ssys_script_client_list.do" },
+      { t: "Client Scripts",          u: "/sys_script_client_list.do" },
       { t: "Fix Scripts",             u: "/sys_script_fix_list.do" },
       { t: "Business Rules",          u: "/sys_script_list.do" },
     { section: "Automation" },
